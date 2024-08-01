@@ -1,0 +1,146 @@
+/*
+* {
+    box-sizing: border-box;
+}
+
+*/
+.Mainpt {
+    width: 100%;
+    background: url('../bg.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.flex-top {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    width: 100%;
+    justify-content: space-evenly;
+    position: relative; 
+    top: 15%;
+
+    
+}
+
+
+.flex-top > div {
+    border: none solid black;
+    width: 25%;
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .flex-top {
+        flex-direction: column;
+    
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .flex-top > div {
+        width: 90%;
+        justify-content: center;
+        position: relative;
+        left: 5%;
+    }
+}
+
+
+
+.Intro {
+    color: white;
+    margin-top: 0.7%;
+    margin-left: 3%;
+}
+
+.Frm {
+    margin-top: 0.7%;
+    background-color: rgba(255, 255, 255, 0.205); 
+    width: 340px; 
+    height: 273px; 
+    border-radius: 5px;
+}
+
+.FrmLgn {
+    position: relative;
+    left: 5%;
+}
+.UsPr {
+    border: none; 
+    width: 90%; 
+    height: 30px;
+}
+input[type=submit] {
+    color: white; 
+    background-color: rgba(6, 122, 200, 0.937); 
+    border: none;
+    border-radius: 3px; 
+    width: 60px; 
+    height: 30px;
+}
+
+a[class=FrmLgn] {
+    text-decoration-line: none; 
+    background-color: lightgrey;
+    
+}
+
+
+
+.flex-container {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 0px;
+    width: 100%;
+    background-color: rgb(232, 243, 246);
+}
+
+
+.flex-container > div {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 22px;
+    width: 190px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    
+}
+ @media screen and (max-width: 768px) {
+    .flex-container > div {
+        width: 90%;
+        text-align: center;
+    }
+    
+ }
+
+.Mnlst {
+    text-decoration: none;
+}
+
+
+.menu {
+    width: 30px;
+}
+
+
+footer {
+    bottom: 0; 
+    position: fixed; 
+    width: 100%; 
+    height: 40px; 
+    background-color: darkgray; 
+    padding-left: 0.5%; 
+}
